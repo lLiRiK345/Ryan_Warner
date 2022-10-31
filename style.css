@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family:"Jost" ;
+    src: url('./fonts/Jost-Bold.ttf') format("ttf"),
+    url('./fonts/Jost-Bold.woff') format("woff"),
+    url('./fonts/Jost-Bold.woff2') format('worr2');
+}
+
+body {
+    font-family: 'Jost', sans-serif ;
+    background-color:#111A20;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    margin: 0 auto;
+    width: 769px;
+}
+
+
+.container {
+    display: flex;
+    padding-top: 65px;
+    justify-content: space-between;
+}
+
+.warner__header {
+    display: flex;
+    color: #ECF8FF;
+}
+
+.warner__header>p{
+    font-weight: 700;
+    padding-left: 21px;
+}
+
+.warner__header>img {
+    width: 23px;
+    height: 21px;
+}
+
+.menu {
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+
+.menu>li>a {
+    color: #ECF8FF;
+    text-decoration: none;
+}
+
+.menu>li>a:hover {
+    padding: 5px 13px 4px 13px;
+    border: 1px solid #7CC9FF;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.header__logo {
+    color: #B0FBBC;
+    font-weight: 700;
+    padding-top: 103px;
+    font-size: 48px;
+    text-shadow: 0px 0px 76px rgba(188, 251, 195, 0.3);
+    line-height: 142%;
+}
+
+.header__info {
+    color:#ECF8FF;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 41px;
+    width: 584px;
+    height: 96px;
+    line-height: 32px;
+}
+
+.twitter {
+    color: #1DA1F2;
+    border-bottom: 1px solid #1DA1F2;
+}
+
+.github {
+    color: #BBC6CC;
+    border-bottom: 1px solid #BBC6CC;
+}
+
+.dribbble {
+    color: #EA4C89;
+    border-bottom: 1px solid #EA4C89;
+}
+
+.articles {
+    margin: 0 auto;
+    width: 769px;
+    display: flex;
+    padding-top: 111px;
+}
+
+.articles>h2 {
+    color: #ECF8FF;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.articles>p {
+    padding: 5px 8px 0 504px;
+    color: #ECF8FF;
+    font-size: 16px;
+}
+
+
+.software {
+    margin: 0 auto;
+    width: 769px;
+    display: flex;
+    padding-top: 35px;
+}
+
+
+.software>h3 {
+    color: #ECF8FF;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 7px;
+}
+
+.software>p {
+    padding-top: 4px;
+    color: #5E8CA7;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.project {
+    margin: 0 auto;
+    width: 769px;
+}
+
+.project>h2 {
+    color: #ECF8FF;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 115px;
+}
+
+.yawnch {
+    background-color: #1C2C35;
+    margin-top: 28px;
+    width: 751px;
+    height: 262px;
+    border-left: 7px solid #CCA9F4;
+    border-radius: 7px;
+}
+
+.yawnch>h3 {
+    padding-top: 38px;
+    padding-left: 31px;
+    color: #ECF8FF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.yawnch>p {
+    width: 681px;
+    padding-top: 13px;
+    padding-left: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ECF8FF;
+}
+
+.yawnch_btn {
+    margin-top: 63px;
+    margin-left: 34px;
+    padding: 4px 35px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ECF8FF;
+    background-color: #1C2C35;
+    border: 1px solid #7CC9FF;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.yawnch_btn:hover {
+    cursor: pointer;
+}
+
+.yawnch_btn:active{
+    transform: scale(0.6);
+    transition: 0.5s;
+}
+
+.block {
+    display: flex;
+}
+
+.stock {
+    margin-top: 16px;
+    width: 361px;
+    height:262px;
+    background-color: #1C2C35;
+    border-left: 7px solid #81F59B;
+    border-radius: 8px;
+}
+
+.stock>h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color:#ECF8FF;
+    padding-left: 31px;
+    padding-top: 32px;
+}
+
+.stock>p {
+    padding-top: 13px;
+    padding-left: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ECF8FF;
+}
+
+.stock_btn {
+    margin-top: 39px;
+    margin-left: 34px;    
+    padding: 4px 35px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ECF8FF;
+    background-color: #1C2C35;
+    border: 1px solid #7CC9FF;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.stock_btn:hover {
+    cursor: pointer;
+}
+
+.stock_btn:active{
+    transform: scale(0.6);
+    transition: 0.5s;
+}
+
+.turtles {
+    width: 362px;
+    height: 262px;
+    margin-left: 21px;
+    margin-top: 16px;
+    background-color: #1C2C35;
+    border-left: 7px solid #D9534D;
+    border-radius: 8px;
+}
+
+.turtles>h3 {
+    padding: 32px 0 0 31px;
+    font-size: 24px;
+    font-size: 500;
+    color: #ECF8FF;
+}
+
+.turtles>p {
+    padding-top: 13px;
+    padding-left: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ECF8FF;
+}
+.turtles_btn {
+    margin-top: 63px;
+    margin-left: 34px;    
+    padding: 4px 35px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ECF8FF;
+    background-color: #1C2C35;
+    border: 1px solid #7CC9FF;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.turtles_btn:hover {
+    cursor: pointer;
+}
+
+.turtles_btn:active{
+    transform: scale(0.6);
+    transition: 0.5s;
+}
+
+.work {
+    background-color: #1C2C35;
+    margin-top: 128px;
+    height: 429px;
+}
+
+.work>h1 {
+    color:#B0FBBC;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 117px;
+    text-align: center;
+}
+
+.work>p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ECF8FF;
+    padding-top: 23px;
+    text-align: center;
+}
+
+.work_btn {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 46px;
+    background-color: #81F59B;
+    padding: 6px 20px;
+    border-radius: 6px;
+    border: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.work_btn:active {
+    transform: scale(0.4);
+    transition: 0.5s;
+}
+
+.work_btn>p{
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #111A20;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 59px;
+}
+
+.footer_text {
+    color: #B8C1C7;
+    font-size: 16px;
+    font-weight: 400;
+    width: 378px;
+    height: 58px;
+    line-height: 28px;
+}
+
+.footer_img {
+    display: flex;
+    gap: 31px;
+}
+
+.footer_img>img {
+    cursor: pointer;
+}
+
